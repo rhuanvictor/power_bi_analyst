@@ -8,7 +8,7 @@ st.set_page_config(page_title="Análise Financeira", layout='wide')
 
 
 # URL do arquivo no GitHub (use o link raw)
-url = "https://raw.githubusercontent.com/rhuanvictor/power_bi_analyst/main/Financial%20Sample.xlsx"
+url = "https://raw.githubusercontent.com/rhuanvictor/power_bi_analyst/main/FinancialSample.xlsx"
 
 # Ler o arquivo Excel diretamente do GitHub
 try:
