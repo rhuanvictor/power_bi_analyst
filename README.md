@@ -8,8 +8,6 @@ Este projeto inclui análises, relatórios e dashboards criados no Power BI. Tam
 
 Você pode acessar a aplicação Streamlit aqui:
 
-[![Streamlit App](https://github.com/rhuanvictor/power_bi_analyst/blob/main/powerBi.jpg)](https://powerbianalyst.streamlit.app/)
-
 Clique na imagem ou no link abaixo para visualizar a aplicação:
 
 [https://powerbianalyst.streamlit.app/](https://powerbianalyst.streamlit.app/)
