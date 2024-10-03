@@ -6,9 +6,16 @@ import numpy as np
 # Configurar a página para usar um layout mais amplo
 st.set_page_config(page_title="Análise Financeira", layout='wide')
 
-# Carregar o arquivo Excel
-file_path = r'C:\Users\rhuan\Desktop\Financial Sample.xlsx'
-df = pd.read_excel(file_path, sheet_name='Sheet1')
+
+# URL do arquivo no GitHub (use o link raw)
+url = "https://raw.githubusercontent.com/rhuanvictor/power_bi_analyst/main/Financial%20Sample.xlsx"
+
+# Ler o arquivo Excel diretamente do GitHub
+try:
+    df = pd.read_excel(url, sheet_name='Sheet1')
+    st.write(df)
+except Exception as e:
+    st.error(f"Erro ao carregar o arquivo: {e}")
 
 # Remover espaços nos nomes das colunas
 df.columns = df.columns.str.strip()
